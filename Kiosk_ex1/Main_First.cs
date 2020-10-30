@@ -21,6 +21,7 @@ namespace Kiosk_ex1
         {
             InitializeComponent();
 
+            //테두리창 삭제
             this.FormBorderStyle = FormBorderStyle.None;
             this.ActiveControl = button1;
 
