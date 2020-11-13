@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TLF.Framework.Compaction</name>
+    </assembly>
+    <members>
+        <member name="T:TLF.Framework.Compaction.DataCompaction">
+            <summary>
+            데이터 압축/압축해제를 담당하는 Class 입니다.
+            </summary>
+            <remarks>
+            2009-12-29 최초생성 : 황준혁
+            변경내역
+            
+            </remarks>
+        </member>
+        <member name="M:TLF.Framework.Compaction.DataCompaction.ZipData(System.Data.DataSet)">
+            <summary>
+            DataSet을 압축하여 byte[]로 리턴합니다.
+            </summary>
+            <param name="ds">압축할 DataSet</param>
+            <returns></returns>
+        </member>
+        <member name="M:TLF.Framework.Compaction.DataCompaction.UnzipData(System.Byte[])">
+            <summary>
+            byte[]를 UnZip 하여 DataSet을 리턴합니다.
+            </summary>
+            <param name="bData"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

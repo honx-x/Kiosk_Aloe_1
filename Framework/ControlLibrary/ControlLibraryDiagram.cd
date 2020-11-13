@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TLF.Framework.ControlLibrary.PButtonEdit">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAACAAEACAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>PButtonEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PCheckButtonEdit">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PCheckButtonEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PCheckedComboBoxEdit">
+    <Position X="0.5" Y="11.5" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>IABAAAACACAAAAAAAECAAAACCAAAIEAAAAAAAAIAAAA=</HashCode>
+      <FileName>PCheckedComboBoxEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PCheckEdit">
+    <Position X="5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAACACAAAAAAAACAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PCheckEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PCheckedListBoxEdit">
+    <Position X="6.25" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAECAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PCheckedListBoxEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PColorEdit">
+    <Position X="5.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACCQCAAAAAAAACAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PColorEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PComboBoxEdit">
+    <Position X="7" Y="11" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACCQCQAAAAAAECAAAACAAAAIEAAAAAAAAIAAAA=</HashCode>
+      <FileName>PComboBoxEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PDateEdit">
+    <Position X="8.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACCQCAAAAAAAACAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PDateEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PDropDownButtonEdit">
+    <Position X="7.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PDropDownButtonEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PImageComboBoxEdit">
+    <Position X="0.5" Y="7.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>IABACAACACAAAAAgAECAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PImageComboBoxEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PMultiButtonEdit">
+    <Position X="0.5" Y="3.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAACYACAACAAAACAAAGAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PMultiButtonEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PListBoxEdit">
+    <Position X="11.5" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAECAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PListBoxEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PPictureEdit">
+    <Position X="10.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IABAAAAKACAAAAAAAACAAAACAAAAIAAAAAAAAAIBAAA=</HashCode>
+      <FileName>PPictureEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PMemoEdit">
+    <Position X="11.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IABACQACACAAAAAgAACAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PMemoEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PRadioGroup">
+    <Position X="10.75" Y="11.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAACACAAAAAAAECAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PRadioGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PMultiComboBoxEdit">
+    <Position X="0.5" Y="15.75" Width="7.25" />
+    <TypeIdentifier>
+      <HashCode>IABEAAACACQAAAAAAECAAAACQAAAIEAAAACAAEIAAAA=</HashCode>
+      <FileName>PMultiComboBoxEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PTextEdit">
+    <Position X="10.75" Y="17.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IABACAACACAAAAAgAACAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PTextEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PSpinEdit">
+    <Position X="8" Y="15.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IABACAACACAAAAAgAACAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PSpinEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PGridControl">
+    <Position X="0.5" Y="21.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAIAAACAAAACAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>PGridControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PGridHandler">
+    <Position X="4.75" Y="21.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PGridHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PGridInfoRegistrator">
+    <Position X="7.5" Y="22" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAACAAAEAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>PGridInfoRegistrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PGridView">
+    <Position X="0.5" Y="24.25" Width="10" />
+    <TypeIdentifier>
+      <HashCode>AAAgggEEQGgEABQABIChAIQKQABAgAEMEIAAAIhiAAA=</HashCode>
+      <FileName>PGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PGridViewInfo">
+    <Position X="4.75" Y="22.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PGridViewInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PTextButtonEdit">
+    <Position X="11.25" Y="21.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IABACAACACAAAAAgAACAAAACAAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>PTextButtonEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PLabelEdit">
+    <Position X="8" Y="19" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAgAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PLabelEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PChartEdit">
+    <Position X="13.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PChartEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PGaugeEdit">
+    <Position X="14" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PGaugeEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.ControlLibrary.PTreeList">
+    <Position X="11" Y="25.25" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAEAAAAACCAAAACAAAAAAAAAAAGAAAIAAA=</HashCode>
+      <FileName>PTreeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

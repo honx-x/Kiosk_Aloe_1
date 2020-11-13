@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TLF.Framework.Applications.frmProgress">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAACAAAACgAAAAAAEAAEAAAAAAAA=</HashCode>
+      <FileName>frmProgress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.Applications.frmOptions">
+    <Position X="4" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAACAAEAAAAACARAACAAAAAAAAAIAAAIAAAAA=</HashCode>
+      <FileName>frmOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

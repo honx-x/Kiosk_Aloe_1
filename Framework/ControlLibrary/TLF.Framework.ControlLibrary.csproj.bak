@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48357666-8A9F-48C2-833C-79E26B395AC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TLF.Framework.ControlLibrary</RootNamespace>
+    <AssemblyName>TLF.Framework.ControlLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assembly Files\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\Assembly Files\TLF.Framework.ControlLibrary.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assembly Files\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>..\..\Assembly Files\TLF.Framework.ControlLibrary.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v20.1.UI, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v20.1.Win, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvPBandedGridHandler.cs" />
+    <Compile Include="AdvPBandedGridInfoRegistrator.cs" />
+    <Compile Include="AdvPBandedGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AdvPBandedGridView.Designer.cs">
+      <DependentUpon>AdvPBandedGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdvPBandedGridViewInfo.cs" />
+    <Compile Include="ControlConfig.cs" />
+    <Compile Include="ControlUtil.cs" />
+    <Compile Include="DocEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocEdit.Designer.cs">
+      <DependentUpon>DocEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocEditor.Designer.cs">
+      <DependentUpon>DocEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageForm.Designer.cs">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LipDisplayControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LipDisplayControl.Designer.cs">
+      <DependentUpon>LipDisplayControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LipGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LipGroup.Designer.cs">
+      <DependentUpon>LipGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PBandedGridHandler.cs" />
+    <Compile Include="PBandedGridInfoRegistrator.cs" />
+    <Compile Include="PBandedGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PBandedGridView.Designer.cs">
+      <DependentUpon>PBandedGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PBandedGridViewInfo.cs" />
+    <Compile Include="PButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PButtonEdit.Designer.cs">
+      <DependentUpon>PButtonEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PChartEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PChartEdit.Designer.cs">
+      <DependentUpon>PChartEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PChartTypeComboEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PChartTypeComboEdit.Designer.cs">
+      <DependentUpon>PChartTypeComboEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCheckButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PCheckButtonEdit.Designer.cs">
+      <DependentUpon>PCheckButtonEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCheckedComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PCheckedComboBoxEdit.Designer.cs">
+      <DependentUpon>PCheckedComboBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCheckEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PCheckEdit.Designer.cs">
+      <DependentUpon>PCheckEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCheckedListBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PCheckedListBoxEdit.Designer.cs">
+      <DependentUpon>PCheckedListBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PChkCbo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PChkCbo.Designer.cs">
+      <DependentUpon>PChkCbo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PChkDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PChkDate.Designer.cs">
+      <DependentUpon>PChkDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PChkDateTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PChkDateTime.Designer.cs">
+      <DependentUpon>PChkDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PChkSpn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PChkSpn.Designer.cs">
+      <DependentUpon>PChkSpn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PChkTxt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PChkTxt.Designer.cs">
+      <DependentUpon>PChkTxt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PColorEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PColorEdit.Designer.cs">
+      <DependentUpon>PColorEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PComboBoxEdit.Designer.cs">
+      <DependentUpon>PComboBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PDateEdit.Designer.cs">
+      <DependentUpon>PDateEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDropDownButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PDropDownButtonEdit.Designer.cs">
+      <DependentUpon>PDropDownButtonEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PFileEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PFileEdit.Designer.cs">
+      <DependentUpon>PFileEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGaugeEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PGaugeEdit.Designer.cs">
+      <DependentUpon>PGaugeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PGridControl.Designer.cs">
+      <DependentUpon>PGridControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGridHandler.cs" />
+    <Compile Include="PGridInfoRegistrator.cs" />
+    <Compile Include="PGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PGridView.Designer.cs">
+      <DependentUpon>PGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGridViewContextMenu.cs" />
+    <Compile Include="PGridViewInfo.cs" />
+    <Compile Include="PHyperLinkEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PHyperLinkEdit.Designer.cs">
+      <DependentUpon>PHyperLinkEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PImageComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PImageComboBoxEdit.Designer.cs">
+      <DependentUpon>PImageComboBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLabelEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PLabelEdit.Designer.cs">
+      <DependentUpon>PLabelEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PListBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PListBoxEdit.Designer.cs">
+      <DependentUpon>PListBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMultiButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PMultiButtonEdit.Designer.cs">
+      <DependentUpon>PMultiButtonEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMemoEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PMemoEdit.Designer.cs">
+      <DependentUpon>PMemoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMultiComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PMultiComboBoxEdit.Designer.cs">
+      <DependentUpon>PMultiComboBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopupHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupHelp.Designer.cs">
+      <DependentUpon>PopupHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPictureEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PPictureEdit.Designer.cs">
+      <DependentUpon>PPictureEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPivotGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PPivotGridControl.Designer.cs">
+      <DependentUpon>PPivotGridControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPopupEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PPopupEdit.Designer.cs">
+      <DependentUpon>PPopupEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPrintControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PPrintControl.Designer.cs">
+      <DependentUpon>PPrintControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PProgressBar.Designer.cs">
+      <DependentUpon>PProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRadioGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PRadioGroup.Designer.cs">
+      <DependentUpon>PRadioGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PSchedulerControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PSchedulerControl.Designer.cs">
+      <DependentUpon>PSchedulerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PSearchMultiComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PSearchMultiComboBoxEdit.designer.cs">
+      <DependentUpon>PSearchMultiComboBoxEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PSpinEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PSpinEdit.Designer.cs">
+      <DependentUpon>PSpinEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PTextButtonEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PTextButtonEdit.Designer.cs">
+      <DependentUpon>PTextButtonEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PTextEdit.Designer.cs">
+      <DependentUpon>PTextEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PTreeList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PTreeList.Designer.cs">
+      <DependentUpon>PTreeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PVerticalGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PVerticalGridControl.Designer.cs">
+      <DependentUpon>PVerticalGridControl.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DocEdit.resx">
+      <DependentUpon>DocEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocEditor.resx">
+      <DependentUpon>DocEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageForm.resx">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LipDisplayControl.resx">
+      <DependentUpon>LipDisplayControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LipGroup.resx" />
+    <EmbeddedResource Include="PChkCbo.resx">
+      <DependentUpon>PChkCbo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PChkDate.resx">
+      <DependentUpon>PChkDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PChkDateTime.resx">
+      <DependentUpon>PChkDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PChkSpn.resx">
+      <DependentUpon>PChkSpn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PChkTxt.resx">
+      <DependentUpon>PChkTxt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupHelp.resx">
+      <DependentUpon>PopupHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPrintControl.resx">
+      <DependentUpon>PPrintControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business\WSBiz\TLF.Business.WSBiz.csproj">
+      <Project>{923903E0-7E2F-441C-B427-49CDEFE40A1E}</Project>
+      <Name>TLF.Business.WSBiz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Authentication\TLF.Framework.Authentication.csproj">
+      <Project>{3A40D3F3-7FB1-49A9-82E7-8EBF1E51F5D2}</Project>
+      <Name>TLF.Framework.Authentication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseFrame\TLF.Framework.BaseFrame.csproj">
+      <Project>{e82c24e4-fe7b-4c1c-ba88-40b9c7ff7cd8}</Project>
+      <Name>TLF.Framework.BaseFrame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Collections\TLF.Framework.Collections.csproj">
+      <Project>{E783A9A6-87DD-4C6F-8A30-0085FA9F5FC5}</Project>
+      <Name>TLF.Framework.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Config\TLF.Framework.Config.csproj">
+      <Project>{D2CA25EA-6A66-493B-B9EC-BB2631BB5BC9}</Project>
+      <Name>TLF.Framework.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExceptionHelper\TLF.Framework.ExceptionHelper.csproj">
+      <Project>{C9DD9F66-894A-4BC6-BB3F-16AC93341661}</Project>
+      <Name>TLF.Framework.ExceptionHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessageHelper\TLF.Framework.MessageHelper.csproj">
+      <Project>{44E0342E-E88D-4C5D-82A9-7A73B3574FCB}</Project>
+      <Name>TLF.Framework.MessageHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\TLF.Framework.Utility.csproj">
+      <Project>{7F26DA0E-1B61-4A60-B8CD-0E82AD20D364}</Project>
+      <Name>TLF.Framework.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ControlLibraryDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

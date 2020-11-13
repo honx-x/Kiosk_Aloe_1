@@ -16,8 +16,8 @@ namespace Kiosk_ex1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Main_First startForm = new Main_First();
-            Application.Run(new Main_First());
+            Main_Login startForm = new Main_Login();
+            Application.Run(new Main_Login());
         }
     }
 }

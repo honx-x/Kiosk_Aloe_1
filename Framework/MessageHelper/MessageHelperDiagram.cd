@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="TLF.Framework.MessageHelper.MsgBox">
+    <Position X="0.5" Y="0.5" Width="8.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MsgBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TLF.Framework.MessageHelper.MsgMap">
+    <Position X="0.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EiCIQYOAAKAenRCEwSJUjFCIfBAgIAORggAlhAgLltU=</HashCode>
+      <FileName>MsgMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

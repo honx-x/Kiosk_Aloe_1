@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TLF.Framework.Config</name>
+    </assembly>
+    <members>
+        <member name="T:TLF.Framework.Config.AppConfig">
+            <summary>
+            Application에서 사용할 Configuration 정보를 정의합니다.
+            </summary>
+            <remarks>
+            2008-12-16 최초생성 : 황준혁
+            변경내역
+            
+            </remarks>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.CHECKCOLUMNNAME">
+            <summary>
+            GridView에서 사용할 기본 Check Column 명입니다.
+            Value : "isCheck"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.CLEARTAG">
+            <summary>
+            Clear Tag입니다.
+            Value : "|"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.CONTROLCATEGORY">
+            <summary>
+            Control의 Property Group명입니다.
+            Value : "S.E.M Control"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.EVENTCATEGORY">
+            <summary>
+            Event의 Group명입니다.
+            Value : "S.E.M Event"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.SETTINGFILEPATH">
+            <summary>
+            사용자 정보(ini) File을 저장할 경로입니다.
+            Value : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), SYSTEMNAME + @"\Setting.ini")
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.SYSTEMNAME">
+            <summary>
+            System 이름입니다.
+            Value : "SWMES"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.WEBSERVICEURL">
+            <summary>
+            기본 Web Service 주소입니다.
+            Value : "http://161.83.27.100/WebService/"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.CORECommon_WEBSERVICEURL">
+            <summary>
+            MES CORE Web Service 주소입니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.ASSEMBLYFOLDER">
+            <summary>
+            Assembly가 저장될 Folder
+            VALUE : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), SYSTEMNAME)
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.GRIDLAYOUTFOLDER">
+            <summary>
+            Grid Layout XML이 저장될 Folder
+            VALUE : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), String.Format(@"{0}\GridLayout", SYSTEMNAME))
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.ASSEMBLYDOWNLOADURL">
+            <summary>
+            Assembly를 Download 할 URL(Web Server)
+            VALUE : "http://61.83.27.100/WebService/Assembly"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.ASSEMBLYXMLFILEPATH">
+            <summary>
+            Xml File의 저장 Path
+            VALUE : Path.Combine(ASSEMBLYFOLDER, "AssemblyDownloadList.xml")
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.LOCALEXMLPATH">
+            <summary>
+            Locale Master의 저장 Path
+            VALUE : Path.Combine(ASSEMBLYFOLDER, "LocaleMaster.xml")
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.MESSAGEXMLPATH">
+            <summary>
+            Locale Message Master의 저장 Path
+            VALUE : Path.Combine(ASSEMBLYFOLDER, "MessageMaster.xml")
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTDATEFORMAT">
+            <summary>
+            시스템에서 사용할 기본 Date Format입니다.
+            VALUE : AppConfig.DEFAULTDATEFORMAT
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.COMMANDSP">
+            <summary>
+            Sql Command에 StoredProcedure를 사용합니다.
+            Value : "StoredProcedure"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.COMMANDTEXT">
+            <summary>
+            Sql Command에 Text를 사용합니다.
+            Value : "Text"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.MESDB">
+            <summary>
+            기준정보 Database를 사용합니다.
+            Value : "MESDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.MESDB3">
+            <summary>
+            치공구 3차개발 Database를 사용합니다.
+            Value : "MESDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.JIGDB">
+            <summary>
+            치공구 Database를 사용합니다.
+            Value : "JIGDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.JIGDB3">
+            <summary>
+            치공구 3차개발 Database를 사용합니다.
+            Value : "JIGDB3"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.LFMES">
+            <summary>
+            부산 치공구 Database를 사용합니다.
+            Value : "PUSANJIGDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.SCLDB">
+            <summary>
+            SCALE Database를 사용합니다.
+            Value : "SCLDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.ASSAY">
+            <summary>
+            이물분석 Database를 사용합니다.
+            Value : "ASSAY"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.MESDB_RPT">
+            <summary>
+            제조WorkPlace Database를 사용합니다.
+            Value : "MESDB_RPT"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.FILEDB">
+            <summary>
+            FILE 저장 Database를 사용합니다.
+            Value : "FILEDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.AOIDB">
+            <summary>
+            AOI 불석데이터 Database를 사용합니다.
+            Value : "AOIDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.HelpDeskDB">
+            <summary>
+            헬프데스크 Database를 사용합니다.
+            Value : "HelpDeskDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.AIDB">
+            <summary>
+            SMS / AI Database를 사용합니다.
+            Value : "AIDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.SPCDB">
+            <summary>
+            SPC Database를 사용합니다.
+            Value : "SPCDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.SCHEDULERDB">
+            <summary>
+            Scheduler Database를 사용합니다.
+            Value : "SCHEDULERDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.TAVISDB">
+            <summary>
+            Tavis DB를 사용합니다.
+            Value : "TAVISDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.WMSDB">
+            <summary>
+            WMS Database를 사용합니다.
+            Value : "WMSDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.PUSANWMSDB">
+            <summary>
+            부산 WMS Database를 사용합니다.
+            Value : "PUSANWMSDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTDB">
+            <summary>
+            기본적으로 사용할 Database입니다.
+            Value : MESDB
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTMESDB">
+            <summary>
+            기준정보에서 사용할 Database 입니다.
+            Value : MESDB
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTJIGDB">
+            <summary>
+            MES에서 사용할 Database 입니다.
+            Value : MESDB
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTASSAY">
+            <summary>
+            이물분석 시스템에서 사용할 Database입니다.
+            Value : ASSAY
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTWORKPLACE">
+            <summary>
+            제조 WorkPlace에서 사용할 Database입니다.
+            Value : MESDB_RPT
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTFILEDB">
+            <summary>
+            FILE을 저장할 DB에서 사용할 Database입니다.
+            Value : FILEDB
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTSCLDB">
+            <summary>
+            Scale 관리 시스템에서 사용할 Database입니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTAOIDB">
+            <summary>
+            AOI 분석 데이터 시스템에서 사용할 Database 입니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTHELPDESKDB">
+            <summary>
+            HelpDesk 조회단 시스템에서 사용할 Database 입니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTSPCDB">
+            <summary>
+            SPC 시스템에서 사용할 Database 입니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTAIDB">
+            <summary>
+            SMS / AI Database를 사용합니다.
+            Value : "MESAI"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTSCHEDULEDB">
+            <summary>
+            Scheduler Database를 사용합니다.
+            Value : "SCHEDULERDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTTAVISDB">
+            <summary>
+            Tavis DB를 사용합니다.
+            Value : "TAVISDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DEFAULTWMSDB">
+            <summary>
+            WMS Database를 사용합니다.
+            Value : "WMSDB"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.CONDITIONCOLOR">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.VALUEMEMBER">
+            <summary>
+            ComboBox 에서 사용할 ValueMember
+            Value : "CodeValue"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.DISPLAYMEMBER">
+            <summary>
+            ComboBox 에서 사용할 DisplayMember
+            Value : "DisplayValue"
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.AppConfig.PERIODCOLOR">
+            <summary>
+            기간표시 컬러
+            </summary>
+        </member>
+        <member name="T:TLF.Framework.Config.ButtonType">
+            <summary>
+            Button의 Type을 정의합니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ButtonType.Default">
+            <summary>
+            기본
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ButtonType.Search">
+            <summary>
+            조회
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ButtonType.Add">
+            <summary>
+            추가
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ButtonType.Save">
+            <summary>
+            저장
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ButtonType.Delete">
+            <summary>
+            삭제
+            </summary>
+        </member>
+        <member name="T:TLF.Framework.Config.ColumnDataType">
+            <summary>
+            GridView의 Column Data Type을 정의합니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Default">
+            <summary>
+            기본(String) 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.CheckEdit">
+            <summary>
+            Check 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.CheckedComboBox">
+            <summary>
+            CheckedComboBoxEdit 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.ComboBox">
+            <summary>
+            ComboBoxEdit 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Date">
+            <summary>
+            날짜형식 yyyy-MM-dd
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.DateTime">
+            <summary>
+            날짜형식 yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Time">
+            <summary>
+            시간형식 HH:mm:ss
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Minute">
+            <summary>
+            시간형식 HH:mm
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Numeric">
+            <summary>
+            숫자형식 소수점 가능
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Decimal">
+            <summary>
+            10진수 형식 소수점 불가
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Currency">
+            <summary>
+            통화 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Percentage">
+            <summary>
+            퍼센트 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Popup">
+            <summary>
+            팝업 컨트롤 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Button">
+            <summary>
+            ButtonEdit 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.LinkButton">
+            <summary>
+            LinkButtonEdit 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.ColorSelect">
+            <summary>
+            Color 선택 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Image">
+            <summary>
+            그림 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Picture">
+            <summary>
+            그림형식(미리보기)
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.ImageCombo">
+            <summary>
+            ImageComboEdit 형식
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.File">
+            <summary>
+            파일 경로 형식(FileOpenDialog 사용)
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Text">
+            <summary>
+            Text 형식(Memo Edit 사용)
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Password">
+            <summary>
+            비밀번호 형식(******)
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.Progress">
+            <summary>
+            ProgessBar 형태
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ColumnDataType.MemoEdit">
+            <summary>
+            MemoEdit 형태
+            </summary>
+        </member>
+        <member name="T:TLF.Framework.Config.DatabaseType">
+            <summary>
+            Database Type을 정의합니다.
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.DatabaseType.MSSQL">
+            <summary>
+            MS-SQL
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.DatabaseType.ORACLE">
+            <summary>
+            Oracle
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.DatabaseType.MYSQL">
+            <summary>
+            My Sql
+            </summary>
+        </member>
+        <member name="T:TLF.Framework.Config.ExportType">
+            <summary>
+            Grid Export Type
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ExportType.Excel">
+            <summary>
+            Excel
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ExportType.Pdf">
+            <summary>
+            Pdf
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ExportType.Html">
+            <summary>
+            Html
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ExportType.Text">
+            <summary>
+            Text
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.ExportType.Rtf">
+            <summary>
+            Rtf
+            </summary>
+        </member>
+        <member name="T:TLF.Framework.Config.InternetConnectionState">
+            <summary>
+            InternetConnectionState
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.InternetConnectionState.INTERNET_CONNECTION_MODEM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.InternetConnectionState.INTERNET_CONNECTION_LAN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.InternetConnectionState.INTERNET_CONNECTION_PROXY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.InternetConnectionState.INTERNET_RAS_INSTALLED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.InternetConnectionState.INTERNET_CONNECTION_OFFLINE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.InternetConnectionState.INTERNET_CONNECTION_CONFIGURED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TLF.Framework.Config.PlaySoundFlags">
+            <summary>
+            PlaySoundFlags
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_SYNC">
+            <summary>
+            Play Synchronously(default)
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_ASYNC">
+            <summary>
+            Play Asynchronously
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_NODEFAULT">
+            <summary>
+            Silence (!default) if sound not found
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_MEMORY">
+            <summary>
+            pszSound points to a memory file
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_LOOP">
+            <summary>
+            loop the sound until next sndPlaySound
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_NOSTOP">
+            <summary>
+            don't stop any currently playing sound
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_NOWAIT">
+            <summary>
+            don't wait if the driver is busy
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_ALIAS">
+            <summary>
+            name is a registry alias
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_ALIAS_ID">
+            <summary>
+            alias is a predefined ID
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_FILENAME">
+            <summary>
+            name is file name
+            </summary>
+        </member>
+        <member name="F:TLF.Framework.Config.PlaySoundFlags.SND_RESOURCE">
+            <summary>
+            name is resource name or atom
+            </summary>
+        </member>
+    </members>
+</doc>

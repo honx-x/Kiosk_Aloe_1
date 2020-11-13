@@ -1,0 +1,131 @@
+;#############################################################
+;#      INF File for Report Designer 5.0 OCX Viewer          #
+;#############################################################
+
+; version signature (same for both NT and WIN95) do not remove
+[version]
+	signature="$CHICAGO$"
+	AdvancedINF=2.0
+
+[Add.Code]
+	rdviewer50.ocx=rdviewer50.ocx
+	rdviewer50.ini=rdviewer50.ini
+	rdfilex50.dll=rdfilex50.dll
+	rdagentx50.dll=rdagentx50.dll
+	rdviewer50.tlb=rdviewer50.tlb
+	rdtidyx50.dll=rdtidyx50.dll
+	html2mrrml50.xsl=html2mrrml50.xsl
+	rdabout50.dll=rdabout50.dll
+	lfbmp14n.dll=lfbmp14n.dll
+	LFCMP14n.DLL=LFCMP14n.DLL
+	lffax14n.dll=lffax14n.dll
+	lfgif14n.dll=lfgif14n.dll
+	Lfpng14n.dll=Lfpng14n.dll
+	lftif14n.dll=lftif14n.dll
+	LTDIS14n.dll=LTDIS14n.dll
+	ltfil14n.DLL=ltfil14n.DLL
+	ltkrn14n.dll=ltkrn14n.dll
+	RDVistaSupport.dll=RDVistaSupport.dll
+
+
+; ############ Report Designer OCX File ############
+; ## copy to Default Directory
+[rdviewer50.ocx]
+	file-win32-x86=thiscab
+	clsid={ADB6D20D-80A1-4aa4-88AE-B2DC820DA076}
+	FileVersion=5,0,0,262
+	RegisterServer=yes
+;	DestDir=11
+
+; ############ INI Files #############
+; ## copy to WINDOWS Directory
+[rdviewer50.ini]
+	file-win32-x86=thiscab
+	DestDir=10
+
+
+; ############ Report Designer DLL Files ############
+; copy to SYSTEM Directory
+[rdfilex50.dll]
+	file-win32-x86=thiscab
+	FileVersion=5,0,0,262
+	DestDir=11
+
+[rdagentx50.dll]
+	file-win32-x86=thiscab
+	FileVersion=5,0,0,262
+	DestDir=11
+
+[rdviewer50.tlb]
+	file-win32-x86=thiscab
+	DestDir=11
+
+[rdtidyx50.dll]
+	file-win32-x86=thiscab
+	FileVersion=5,0,0,262
+	DestDir=11
+
+[html2mrrml50.xsl]
+	file-win32-x86=thiscab
+	DestDir=11
+
+[rdabout50.dll]
+	file-win32-x86=thiscab
+	FileVersion=4,0,0,2
+	DestDir=11
+
+[lfbmp14n.dll]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[LFCMP14n.DLL]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[lffax14n.dll]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[lfgif14n.dll]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[Lfpng14n.dll]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[lftif14n.dll]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[LTDIS14n.dll]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[ltfil14n.DLL]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+
+[ltkrn14n.dll]
+	file-win32-x86=thiscab
+	FileVersion=14,5,0,77
+	DestDir=11
+	
+[RDVistaSupport.dll]
+	file-win32-x86=thiscab
+	clsid={1F84CC38-1227-4D76-A4E3-E48AE0714178}
+	FileVersion=1,0,0,7
+	RegisterServer=yes
+;	DestDir=11
+
+;#############################################################
+; end of INF file
+;#############################################################
